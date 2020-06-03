@@ -1,4 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>renovatebot/presets-internal:docker-images"]
+  "extends": ["github>renovatebot/presets-internal:docker-images"],
+  "packageRules": [
+    { "paths": ["src/**"], "updateTypes": ["major", "minor"], "enabled": false }
+  ]
 }
