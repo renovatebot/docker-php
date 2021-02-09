@@ -1,7 +1,7 @@
 # renovate: datasource=docker depName=php versioning=docker
 ARG PHP_VERSION=7.4
 
-FROM renovate/buildpack:3-php@sha256:5b5eb4591483642a2968babb8931c7869b4359cf9d676ec0b8022d01805d6a8e
+FROM renovate/buildpack:4-php@sha256:68793ed2873b825c79739436510d8c69fe0eb764c25e7059bd75f7167e2f3a02
 
 ARG PHP_VERSION
 RUN install-tool php
