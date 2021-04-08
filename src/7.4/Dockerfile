@@ -1,1 +1,0 @@
-FROM php:7.4.6@sha256:0546f48c17f7f3b5c0ca116b8cd7badc9ec262abb06b6b1bf16bc166e87a3edc

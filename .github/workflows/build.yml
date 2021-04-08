@@ -4,13 +4,9 @@ on:
   push:
     branches:
       - main
-      - "renovate/**"
+      - 'renovate/**'
 
   pull_request:
-
-env:
-  # https://github.com/chalk/supports-color/issues/106
-  FORCE_COLOR: true
 
 jobs:
   build:
@@ -26,5 +22,5 @@ jobs:
         uses: renovatebot/internal-tools@v1.5.3
         with:
           command: docker-builder
-          major-minor: false
+          major-minor: true
           dry-run: ${{github.ref != 'refs/heads/main'}}
