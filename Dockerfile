@@ -1,5 +1,5 @@
-# renovate: datasource=docker depName=php versioning=docker
-ARG PHP_VERSION=7.4
+# renovate: datasource=github-releases lookupName=containerbase/php-prebuild
+ARG PHP_VERSION=7.4.16
 
 FROM renovate/buildpack:5-php@sha256:f98b1b3822b1124e520394a4253192a2ab7cb143696886eadeed4b250a57ce6e
 
