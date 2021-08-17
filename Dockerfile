@@ -1,7 +1,7 @@
 # renovate: datasource=github-releases depName=containerbase/php-prebuild
 ARG PHP_VERSION=7.4.22
 
-FROM renovate/buildpack:5-php@sha256:c4d8b06c2fd46273753c7d23fb79bab67247f25e6e821d51ae733793145cbad7
+FROM renovate/buildpack:5-php@sha256:5f659ba90233e257f82372d392ff6fc5a95dbc409e22964968fdf15bc430365c
 
 ARG PHP_VERSION
 RUN install-tool php
