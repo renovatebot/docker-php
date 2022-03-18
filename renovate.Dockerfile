@@ -16,4 +16,4 @@ ENV PHP_VERSION=7.4.28
 
 # EOL 2023-11-26
 # renovate: datasource=github-releases depName=containerbase/php-prebuild
-ENV PHP_VERSION=8.0.16
+ENV PHP_VERSION=8.0.17
