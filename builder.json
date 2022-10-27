@@ -1,5 +1,5 @@
 {
   "image": "php",
-  "startVersion": "5.6.31",
+  "startVersion": "7.0.0",
   "cache": "docker-build-cache"
 }
